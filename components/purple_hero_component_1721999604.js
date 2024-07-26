@@ -10,39 +10,32 @@ Vue.component("purple_hero_component_1721999604", {
         <div id="section-container" class="relative max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
                 <!-- Swap Form -->
-                <div id="swap-form" class="max-w-md mx-auto bg-purple-900 rounded-2xl shadow-lg p-6 mb-8">
-                    <h2 class="text-2xl font-bold text-purple-100 mb-4">Swap</h2>
+                <!-- Crypto Payment Form -->
+                <div id="crypto-payment-form" class="max-w-md mx-auto bg-purple-900 rounded-2xl shadow-lg p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-purple-100 mb-4">Pay for Dog Walking</h2>
                     <div class="mb-4">
-                        <label for="from-token" class="block text-sm font-medium text-purple-200 mb-2">You pay</label>
+                        <label for="service" class="block text-sm font-medium text-purple-200 mb-2">Select Service</label>
+                        <select id="service" class="w-full bg-purple-800 text-white rounded-xl p-3 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                            <option value="30">30 min walk - $20</option>
+                            <option value="60">60 min walk - $35</option>
+                            <option value="group">Group walk - $15</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="crypto-currency" class="block text-sm font-medium text-purple-200 mb-2">Pay with</label>
                         <div class="flex items-center bg-purple-800 rounded-xl p-3">
                             <input type="number" placeholder="0" class="w-full bg-transparent text-white text-2xl font-semibold focus:outline-none" />
-                            <select id="from-token" class="ml-2 bg-purple-700 text-white rounded-xl p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                            <select id="crypto-currency" class="ml-2 bg-purple-700 text-white rounded-xl p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400">
                                 <option value="eth">ETH</option>
                                 <option value="dai">DAI</option>
                                 <option value="usdc">USDC</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="flex justify-center my-4">
-                        <button class="bg-purple-700 text-purple-200 rounded-full p-2 hover:bg-purple-600 transition duration-300">
-                            <i class='bx bx-transfer-alt text-2xl'></i>
-                        </button>
-                    </div>
-                    <div class="mb-4">
-                        <label for="to-token" class="block text-sm font-medium text-purple-200 mb-2">You receive</label>
-                        <div class="flex items-center bg-purple-800 rounded-xl p-3">
-                            <input type="number" placeholder="0" class="w-full bg-transparent text-white text-2xl font-semibold focus:outline-none" readonly />
-                            <select id="to-token" class="ml-2 bg-purple-700 text-white rounded-xl p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400">
-                                <option value="dai">DAI</option>
-                                <option value="usdc">USDC</option>
-                                <option value="eth">ETH</option>
                             </select>
                         </div>
                     </div>
                     <div class="text-purple-200 text-sm mb-4">
-                        1 ETH = 1,800 DAI
+                        1 ETH = $1,800 USD
                     </div>
-                    <button id="swap-button" class="w-full bg-purple-500 text-white rounded-xl py-3 px-4 font-semibold hover:bg-purple-600 transition duration-300 shadow-md">Swap</button>
+                    <button id="pay-button" class="w-full bg-purple-500 text-white rounded-xl py-3 px-4 font-semibold hover:bg-purple-600 transition duration-300 shadow-md">Pay Now</button>
                 </div>
                 <!-- Hero content -->
                 <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative;z-index: 1">

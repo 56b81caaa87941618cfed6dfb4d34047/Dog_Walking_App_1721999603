@@ -50,5 +50,9 @@
     {
         "level": 1,
         "task_description": "add to this form some payment method info to submit"
+    },
+    {
+        "level": 1,
+        "task_description": "make it less about swaps and more about paying in crypto for the dog walking services"
     }
 ]
