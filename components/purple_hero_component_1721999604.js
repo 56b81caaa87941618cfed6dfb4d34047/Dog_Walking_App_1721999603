@@ -10,25 +10,39 @@ Vue.component("purple_hero_component_1721999604", {
         <div id="section-container" class="relative max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
                 <!-- Swap Form -->
-                <div id="swap-form" class="max-w-md mx-auto bg-slate-800 rounded-lg shadow-lg p-6 mb-8">
-                    <h2 class="text-2xl font-bold text-purple-300 mb-4">Swap Tokens</h2>
+                <div id="swap-form" class="max-w-md mx-auto bg-pink-900 rounded-2xl shadow-lg p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-pink-100 mb-4">Swap</h2>
                     <div class="mb-4">
-                        <label for="from-token" class="block text-sm font-medium text-purple-200 mb-2">From</label>
-                        <select id="from-token" class="w-full bg-slate-700 text-white rounded-md p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-600">
-                            <option value="eth">ETH</option>
-                            <option value="dai">DAI</option>
-                            <option value="usdc">USDC</option>
-                        </select>
+                        <label for="from-token" class="block text-sm font-medium text-pink-200 mb-2">You pay</label>
+                        <div class="flex items-center bg-pink-800 rounded-xl p-3">
+                            <input type="number" placeholder="0" class="w-full bg-transparent text-white text-2xl font-semibold focus:outline-none" />
+                            <select id="from-token" class="ml-2 bg-pink-700 text-white rounded-xl p-2 border border-pink-500 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                                <option value="eth">ETH</option>
+                                <option value="dai">DAI</option>
+                                <option value="usdc">USDC</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex justify-center my-4">
+                        <button class="bg-pink-700 text-pink-200 rounded-full p-2 hover:bg-pink-600 transition duration-300">
+                            <i class='bx bx-transfer-alt text-2xl'></i>
+                        </button>
                     </div>
                     <div class="mb-4">
-                        <label for="to-token" class="block text-sm font-medium text-purple-200 mb-2">To</label>
-                        <select id="to-token" class="w-full bg-slate-700 text-white rounded-md p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-600">
-                            <option value="dai">DAI</option>
-                            <option value="usdc">USDC</option>
-                            <option value="eth">ETH</option>
-                        </select>
+                        <label for="to-token" class="block text-sm font-medium text-pink-200 mb-2">You receive</label>
+                        <div class="flex items-center bg-pink-800 rounded-xl p-3">
+                            <input type="number" placeholder="0" class="w-full bg-transparent text-white text-2xl font-semibold focus:outline-none" readonly />
+                            <select id="to-token" class="ml-2 bg-pink-700 text-white rounded-xl p-2 border border-pink-500 focus:outline-none focus:ring-2 focus:ring-pink-400">
+                                <option value="dai">DAI</option>
+                                <option value="usdc">USDC</option>
+                                <option value="eth">ETH</option>
+                            </select>
+                        </div>
                     </div>
-                    <button id="swap-button" class="w-full bg-purple-600 text-white rounded-md p-2 hover:bg-purple-700 transition duration-300 shadow-md">Swap</button>
+                    <div class="text-pink-200 text-sm mb-4">
+                        1 ETH = 1,800 DAI
+                    </div>
+                    <button id="swap-button" class="w-full bg-pink-500 text-white rounded-xl py-3 px-4 font-semibold hover:bg-pink-600 transition duration-300 shadow-md">Swap</button>
                 </div>
                 <!-- Hero content -->
                 <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative;z-index: 1">
