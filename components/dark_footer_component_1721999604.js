@@ -9,9 +9,9 @@
 Vue.component("dark_footer_component_1721999604", {
     template: `
 <footer id="footer-section-container">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-gray-900">
         <div class="bg-yellow-300 p-5 rounded-lg shadow-md mb-8">
-            <p class="text-black">This is a yellow box.</p>
+            <p class="text-gray-900 font-semibold">This is a yellow box.</p>
         </div>
  
         <!-- Blocks -->
