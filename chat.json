@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Acknowledged, working on making it pink and more detailed.",
+        "message_id": "guest26072024140544",
+        "timestamp": "26072024140544",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "make it pink like uniswap, and more detailed like uniswap",
         "message_id": "guest26072024140544",
