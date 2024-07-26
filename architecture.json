@@ -22,5 +22,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: add a ui widget for uniswap style swaps like the uniswap app\nAI: On it, adding a UI widget for Uniswap style swaps.\nAI: Great! Adding a yellow box.\nUser: replace with a component for a dropdown form\nAI: Noted, implementing a component for the dropdown form.\nThis is the user's current request of changes to be made: make it pink like uniswap, and more detailed like uniswap"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: add a ui widget for uniswap style swaps like the uniswap app\nAI: On it, adding a UI widget for Uniswap style swaps.\nAI: Great! Adding a yellow box.\nUser: replace with a component for a dropdown form\nAI: Noted, implementing a component for the dropdown form.\nThis is the user's current request of changes to be made: make it pink like uniswap, and more detailed like uniswap"
     }
 ]
