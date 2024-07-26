@@ -1,6 +1,15 @@
 [
     {
         "role": "user",
+        "content": "make the hero much more detailed and fun, with various shades of purple, testimonials etc",
+        "message_id": "guest26072024200336",
+        "timestamp": "26072024200336",
+        "component_file_name": "purple_background_cta_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
         "content": "make it less about swaps and more about paying in crypto for the dog walking services",
         "message_id": "guest26072024200221",
         "timestamp": "26072024200221",
