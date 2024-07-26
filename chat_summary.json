@@ -12,5 +12,11 @@
         "content": "add a ui widget for uniswap style swaps like the uniswap app",
         "timestamp": "26072024131421",
         "message_id": "guest26072024131420"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "On it, adding a UI widget for Uniswap style swaps.",
+        "timestamp": "26072024131421",
+        "message_id": "guest26072024131420"
     }
 ]
