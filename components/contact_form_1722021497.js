@@ -64,6 +64,30 @@ Vue.component('contact_form_1722021497', {
             <textarea required class="w-full mt-2 h-24 px-4 py-3 resize-none appearance-none bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg text-purple-200" placeholder="e.g., feeding schedule, medication, special needs..."></textarea>
           </div>
           <div>
+            <label class="font-medium text-purple-300">Payment Method</label>
+            <select required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg">
+              <option value="" disabled selected>Select payment method</option>
+              <option value="credit_card">Credit Card</option>
+              <option value="debit_card">Debit Card</option>
+              <option value="paypal">PayPal</option>
+            </select>
+          </div>
+          <div>
+            <label class="font-medium text-purple-300">Card Number</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" placeholder="1234 5678 9012 3456" />
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="font-medium text-purple-300">Expiration Date</label>
+              <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" placeholder="MM/YY" />
+            </div>
+            <div>
+              <label class="font-medium text-purple-300">CVV</label>
+              <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" placeholder="123" />
+            </div>
+          </div>
+          <div>
+          <div>
           <div>
             <label class="font-medium text-purple-300">Breed</label>
             <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
