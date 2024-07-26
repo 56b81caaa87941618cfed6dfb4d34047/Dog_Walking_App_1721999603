@@ -1,53 +1,53 @@
 Vue.component('contact_form_1722021497', {
   template: `
-    <main class="flex justify-center align-center p-10 bg-purple-100">
-      <div class="w-fit max-w-lg p-8 bg-white shadow-xl rounded-2xl border-2 border-purple-300">
+    <main class="flex justify-center align-center p-10 bg-purple-900">
+      <div class="w-fit max-w-lg p-8 bg-purple-800 shadow-2xl rounded-3xl border-2 border-purple-400">
         <div>
-          <h3 class="text-purple-800 font-bold text-2xl">Get in Touch for Dog Walking Services</h3>
-          <p class="mt-3 text-purple-600 w-fit">We'll take your furry friend for a fun and safe walk!</p>
+          <h3 class="text-purple-200 font-bold text-2xl">Get in Touch for Dog Walking Services</h3>
+          <p class="mt-3 text-purple-300 w-fit">We'll take your furry friend for a fun and safe walk!</p>
         </div>
         <form @submit.prevent class="space-y-6 mt-6">
           <div>
-            <label class="font-medium text-purple-700">Your Name</label>
-            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
+            <label class="font-medium text-purple-300">Your Name</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-purple-700">Your Email</label>
-            <input type="email" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
+            <label class="font-medium text-purple-300">Your Email</label>
+            <input type="email" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-purple-700">Your Phone Number</label>
+            <label class="font-medium text-purple-300">Your Phone Number</label>
             <div class="relative mt-2">
-              <select v-model="countryCode" class="absolute left-0 top-0 bottom-0 text-sm bg-purple-200 outline-none rounded-l-lg px-3 text-purple-800 border-2 border-purple-300">
+              <select v-model="countryCode" class="absolute left-0 top-0 bottom-0 text-sm bg-purple-600 outline-none rounded-l-lg px-3 text-purple-200 border-2 border-purple-500">
                 <option value="US">US</option>
                 <option value="ES">ES</option>
                 <option value="MR">MR</option>
               </select>
-              <input type="number" :placeholder="getPhoneNumberPlaceholder(countryCode)" required class="w-full pl-20 pr-4 py-3 appearance-none bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg text-purple-800" />
+              <input type="number" :placeholder="getPhoneNumberPlaceholder(countryCode)" required class="w-full pl-20 pr-4 py-3 appearance-none bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg text-purple-200" />
             </div>
           </div>
           <div>
-            <label class="font-medium text-purple-700">Dog's Name</label>
-            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
+            <label class="font-medium text-purple-300">Dog's Name</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-purple-700">Services</label>
+            <label class="font-medium text-purple-300">Services</label>
             <ul class="grid gap-y-3 gap-x-6 flex-wrap grid-cols-2 mt-3">
               <li v-for="(item, idx) in servicesItems" :key="idx" class="flex items-center gap-x-3 text-sm">
-                <input :id="'service-' + idx" type="checkbox" class="w-5 h-5 bg-purple-100 border-2 border-purple-400 rounded-md focus:ring-2 focus:ring-purple-300 text-purple-600 cursor-pointer" />
-                <label :for="'service-' + idx" class="cursor-pointer text-purple-700">{ item }</label>
+                <input :id="'service-' + idx" type="checkbox" class="w-5 h-5 bg-purple-600 border-2 border-purple-400 rounded-md focus:ring-2 focus:ring-purple-300 text-purple-300 cursor-pointer" />
+                <label :for="'service-' + idx" class="cursor-pointer text-purple-300">{ item }</label>
               </li>
             </ul>
           </div>
           <div>
-            <label class="font-medium text-purple-700">Breed</label>
-            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
+            <label class="font-medium text-purple-300">Breed</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-purple-700">Any Special Needs?</label>
-            <textarea required class="w-full mt-2 h-36 px-4 py-3 resize-none appearance-none bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg text-purple-800"></textarea>
+            <label class="font-medium text-purple-300">Any Special Needs?</label>
+            <textarea required class="w-full mt-2 h-36 px-4 py-3 resize-none appearance-none bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg text-purple-200"></textarea>
           </div>
-          <button class="w-full px-6 py-3 text-white font-medium bg-purple-600 hover:bg-purple-500 active:bg-purple-700 rounded-lg shadow-lg transition duration-150 ease-in-out transform hover:scale-105">Submit</button>
+          <button class="w-full px-6 py-3 text-purple-900 font-medium bg-purple-300 hover:bg-purple-200 active:bg-purple-400 rounded-lg shadow-lg transition duration-150 ease-in-out transform hover:scale-105">Submit</button>
         </form>
       </div>
     </main>
