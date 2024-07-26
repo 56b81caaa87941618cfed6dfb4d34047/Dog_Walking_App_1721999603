@@ -3,20 +3,20 @@ Vue.component('contact_form_1722021497', {
     <main class="flex justify-center align-center p-10">
       <div class="w-fit max-w-lg p-8 bg-white shadow-lg rounded-lg">
         <div>
-          <h3 class="text-black font-semibold text-xl">CONTACT_FORM_TITLE_PLACEHOLDER_TEXT</h3>
-          <p class="mt-3 text-black w-fit">CONTACT_FORM_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h3 class="text-black font-semibold text-xl">Get in Touch for Dog Walking Services</h3>
+          <p class="mt-3 text-black w-fit">We'll take your furry friend for a fun and safe walk!</p>
         </div>
         <form @submit.prevent class="space-y-5 mt-5">
           <div>
-            <label class="font-medium text-black">CONTACT_FORM_TEXT_FIELD_PLACEHOLDER_TEXT_1</label>
+            <label class="font-medium text-black">Your Name</label>
             <input type="text" required class="w-full mt-2 px-3 py-2 text-black bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-black">CONTACT_FORM_TEXT_FIELD_PLACEHOLDER_TEXT_2</label>
+            <label class="font-medium text-black">Your Email</label>
             <input type="email" required class="w-full mt-2 px-3 py-2 text-black bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-black">CONTACT_FORM_TEXT_FIELD_PLACEHOLDER_TEXT_3</label>
+            <label class="font-medium text-black">Your Phone Number</label>
             <div class="relative mt-2">
               <select v-model="countryCode" class="text-sm bg-white outline-none rounded-lg h-full text-black">
                 <option value="US">US</option>
@@ -27,7 +27,7 @@ Vue.component('contact_form_1722021497', {
             </div>
           </div>
           <div>
-            <label class="font-medium text-black">CONTACT_FORM_TEXT_FIELD_PLACEHOLDER_TEXT_4</label>
+            <label class="font-medium text-black">Dog's Name</label>
             <ul class="grid gap-y-2 gap-x-6 flex-wrap grid-cols-2 mt-3">
               <li v-for="(item, idx) in servicesItems" :key="idx" class="flex gap-x-3 text-xs justify-between space-between">
                 <div>
@@ -38,10 +38,10 @@ Vue.component('contact_form_1722021497', {
             </ul>
           </div>
           <div>
-            <label class="font-medium text-black">CONTACT_FORM_TEXT_FIELD_PLACEHOLDER_TEXT_5</label>
+            <label class="font-medium text-black">Breed</label>
             <textarea required class="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg text-black"></textarea>
           </div>
-          <button class="w-full px-4 py-2 text-white font-medium bg-green-600 hover:bg-green-500 active:bg-green-700 rounded-lg duration-150">CONTACT_FORM_TEXT_FIELD_PLACEHOLDER_TEXT_6</button>
+          <button class="w-full px-4 py-2 text-white font-medium bg-green-600 hover:bg-green-500 active:bg-green-700 rounded-lg duration-150">Any Special Needs?</button>
         </form>
       </div>
     </main>
@@ -52,10 +52,10 @@ Vue.component('contact_form_1722021497', {
       expanded: false,
       data: null,
       servicesItems: [
-        'CONTACT_FORM_PLACEHOLDER_SERVICE_ITEM_1',
-        'CONTACT_FORM_PLACEHOLDER_SERVICE_ITEM_2',
-        'CONTACT_FORM_PLACEHOLDER_SERVICE_ITEM_3',
-        'CONTACT_FORM_PLACEHOLDER_SERVICE_ITEM_4'
+        '30 Minute Walk',
+        '60 Minute Walk',
+        'Dog Park Visit',
+        'Overnight Sitting'
       ],
       countryCode: 'US'
     };
