@@ -4,28 +4,86 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 
 Vue.component("purple_background_cta_component_1721999604", {
     template: `
-    <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
-            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
+    <section id="cta-section-container" class="bg-gradient-to-br from-purple-100 to-purple-300">
+        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div id="content-container" class="relative px-8 py-16 md:py-24 rounded-3xl overflow-hidden shadow-2xl bg-white">
                 <!-- Radial gradient -->
-                <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-[120px] opacity-70" :class="radialGradientPrimaryStyle"></div>
-                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-[40px]" :class="radialGradientSecondaryStyle">
-                    </div>
+                <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
+                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-150 opacity-70" :class="radialGradientPrimaryStyle"></div>
+                    <div id="radial-gradient-inner" class="absolute w-1/3 h-1/3 translate-z-0 rounded-full blur-50" :class="radialGradientSecondaryStyle"></div>
                 </div>
                 <!-- Blurred shape -->
-                <div id="blurred-shape" class="absolute bottom-0 translate-y-1/2 left-0 blur-2xl opacity-50 pointer-events-none -z-10" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
+                <div id="blurred-shape" class="absolute bottom-0 translate-y-1/2 left-0 blur-3xl opacity-50 pointer-events-none -z-10" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="534" height="527">
                         <defs><linearGradient id="bs5-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%"><stop offset="0%" :stop-color="stopColorPrimaryStyle" /><stop offset="100%" :stop-color="stopColorSecondaryStyle" stop-opacity="0" /></linearGradient></defs>
-                        <path fill="url(#bs5-a)" fill-rule="evenodd" d="m0 0 461 369-284 58z" transform="matrix(1 0 0 -1 0 427)" />
+                        <path fill="url(#bs5-a)" fill-rule="evenodd" d="m0 0 561 469-384 58z" transform="matrix(1 0 0 -1 0 527)" />
                     </svg>
                 </div>
                 <!-- Content -->
-                <div id="content" class="max-w-3xl mx-auto text-center">
-                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Fetch the Perfect Walk for Your Pooch</div></div>
-                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Unleash the Adventure: Your Dog's New Best Friend</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Say goodbye to the hassle of walking your furry companion alone. Our app connects you with trusted, pet-loving walkers in your neighborhood who'll treat your pup like family.</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
+                <div id="content" class="max-w-4xl mx-auto">
+                    <div class="text-center mb-12">
+                        <div id="content-subtitle" class="flex justify-center">
+                            <div id="content-subtitle-text" class="inline-block font-semibold text-lg bg-clip-text pb-3 px-4 rounded-full bg-purple-100" :class="[transparentTextStyle, contentSubtitleStyle]">
+                                <i class='bx bx-walk mr-2'></i>Fetch the Perfect Walk for Your Pooch
+                            </div>
+                        </div>
+                        <div class="flex justify-center" id="content-title-container">
+                            <h2 id="content-title" class="text-4xl md:text-5xl font-bold bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]">Unleash the Adventure: Your Dog's New Best Friend</h2>
+                        </div>
+                        <div class="flex justify-center" id="content-body-container">
+                            <p id="content-body" class="text-xl mb-8 max-w-2xl" :class="[contentBodyStyle]">Say goodbye to the hassle of walking your furry companion alone. Our app connects you with trusted, pet-loving walkers in your neighborhood who'll treat your pup like family.</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                        <div class="bg-purple-50 p-6 rounded-xl shadow-md">
+                            <i class='bx bx-map text-3xl text-purple-500 mb-4'></i>
+                            <h3 class="text-xl font-semibold mb-2 text-purple-700">Local Walks</h3>
+                            <p class="text-purple-600">Discover nearby walking routes perfect for your pup's needs.</p>
+                        </div>
+                        <div class="bg-purple-50 p-6 rounded-xl shadow-md">
+                            <i class='bx bx-shield text-3xl text-purple-500 mb-4'></i>
+                            <h3 class="text-xl font-semibold mb-2 text-purple-700">Vetted Walkers</h3>
+                            <p class="text-purple-600">All our walkers are background-checked and pet-care certified.</p>
+                        </div>
+                        <div class="bg-purple-50 p-6 rounded-xl shadow-md">
+                            <i class='bx bx-time text-3xl text-purple-500 mb-4'></i>
+                            <h3 class="text-xl font-semibold mb-2 text-purple-700">Flexible Scheduling</h3>
+                            <p class="text-purple-600">Book walks anytime, from quick potty breaks to long adventures.</p>
+                        </div>
+                    </div>
+                    <div class="text-center mb-12">
+                        <a id="content-cta-button" href="#0" class="btn text-lg px-8 py-4 rounded-full transition duration-300 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">
+                            Get Started 
+                            <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-1 transition-transform duration-300 ease-in-out ml-2" :class="contentCtaArrowStyle">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="bg-purple-100 p-8 rounded-2xl">
+                        <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">What Our Happy Pups Say</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-white p-6 rounded-xl shadow-md">
+                                <p class="text-purple-700 mb-4">"My dog loves his daily walks now! The app made finding a reliable walker so easy."</p>
+                                <div class="flex items-center">
+                                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="User Avatar" class="w-12 h-12 rounded-full mr-4">
+                                    <div>
+                                        <p class="font-semibold text-purple-800">Sarah M.</p>
+                                        <p class="text-purple-600 text-sm">Dog Mom to Max</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-md">
+                                <p class="text-purple-700 mb-4">"As a busy professional, this app has been a lifesaver for ensuring my pup gets his exercise!"</p>
+                                <div class="flex items-center">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User Avatar" class="w-12 h-12 rounded-full mr-4">
+                                    <div>
+                                        <p class="font-semibold text-purple-800">James L.</p>
+                                        <p class="text-purple-600 text-sm">Proud owner of Luna</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,19 +91,18 @@ Vue.component("purple_background_cta_component_1721999604", {
         data() {
             return {
                 expanded: false, 
-                tab: null,
-                radialGradientPrimaryStyle: "bg-purple-500",
+                radialGradientPrimaryStyle: "bg-purple-600",
                 radialGradientSecondaryStyle: "bg-purple-400",
-                stopColorPrimaryStyle: "#A855F7",
-                stopColorSecondaryStyle: "#6366F1",
+                stopColorPrimaryStyle: "#8B5CF6",
+                stopColorSecondaryStyle: "#A78BFA",
                 transparentTextStyle: "text-transparent",
-                contentSubtitleStyle: "bg-gradient-to-r from-purple-500 to-purple-200",
-                contentCtaTitleStyle: "bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60",
-                contentBodyStyle: "text-slate-400",
-                contentCtaButtonPrimaryStyle:"text-slate-900",
-                contentCtaButtonGradientStyle: "bg-gradient-to-r from-white/80 via-white to-white/80",
-                contentCtaButtonHoverStyle: "hover:bg-white",
-                contentCtaArrowStyle: "text-purple-500"
+                contentSubtitleStyle: "bg-gradient-to-r from-purple-600 to-purple-400",
+                contentCtaTitleStyle: "bg-gradient-to-r from-purple-700 via-purple-600 to-purple-700",
+                contentBodyStyle: "text-purple-700",
+                contentCtaButtonPrimaryStyle:"text-white",
+                contentCtaButtonGradientStyle: "bg-gradient-to-r from-purple-600 to-purple-500",
+                contentCtaButtonHoverStyle: "hover:from-purple-700 hover:to-purple-600",
+                contentCtaArrowStyle: "text-white"
             };
         },
     });
