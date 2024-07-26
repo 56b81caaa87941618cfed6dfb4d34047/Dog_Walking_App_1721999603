@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Noted, implementing a component for the dropdown form.",
+        "message_id": "guest26072024131720",
+        "timestamp": "26072024131720",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace with a component for a dropdown form",
         "message_id": "guest26072024131720",

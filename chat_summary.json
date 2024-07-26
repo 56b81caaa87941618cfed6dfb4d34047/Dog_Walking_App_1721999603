@@ -48,5 +48,11 @@
         "content": "replace with a component for a dropdown form",
         "timestamp": "26072024131720",
         "message_id": "guest26072024131720"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Noted, implementing a component for the dropdown form.",
+        "timestamp": "26072024131720",
+        "message_id": "guest26072024131720"
     }
 ]
