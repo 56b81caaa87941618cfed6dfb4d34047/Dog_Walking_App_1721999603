@@ -4,9 +4,9 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 
 Vue.component("purple_background_cta_component_1721999604", {
     template: `
-    <section id="cta-section-container" class="bg-gradient-to-br from-purple-100 to-purple-300">
+    <section id="cta-section-container" class="bg-gradient-to-br from-blue-900 to-black">
         <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6">
-            <div id="content-container" class="relative px-8 py-16 md:py-24 rounded-3xl overflow-hidden shadow-2xl bg-white">
+            <div id="content-container" class="relative px-8 py-16 md:py-24 rounded-3xl overflow-hidden shadow-2xl bg-blue-950">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
                     <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-150 opacity-70" :class="radialGradientPrimaryStyle"></div>
@@ -23,68 +23,71 @@ Vue.component("purple_background_cta_component_1721999604", {
                 <div id="content" class="max-w-4xl mx-auto">
                     <div class="text-center mb-12">
                         <div id="content-subtitle" class="flex justify-center">
-                            <div id="content-subtitle-text" class="inline-block font-semibold text-lg bg-clip-text pb-3 px-4 rounded-full bg-purple-100" :class="[transparentTextStyle, contentSubtitleStyle]">
+                            <div id="content-subtitle-text" class="inline-block font-semibold text-lg bg-clip-text pb-3 px-4 rounded-full bg-purple-600" :class="[transparentTextStyle, contentSubtitleStyle]">
                                 <i class='bx bx-walk mr-2'></i>Fetch the Perfect Walk for Your Pooch
                             </div>
                         </div>
                         <div class="flex justify-center" id="content-title-container">
-                            <h2 id="content-title" class="text-4xl md:text-5xl font-bold bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]">Unleash the Adventure: Your Dog's New Best Friend</h2>
+                            <h2 id="content-title" class="text-4xl md:text-5xl font-bold bg-clip-text pb-4 text-white" :class="[transparentTextStyle, contentCtaTitleStyle]">Unleash the Adventure: Your Dog's New Best Friend</h2>
                         </div>
                         <div class="flex justify-center" id="content-body-container">
-                            <p id="content-body" class="text-xl mb-8 max-w-2xl" :class="[contentBodyStyle]">Say goodbye to the hassle of walking your furry companion alone. Our app connects you with trusted, pet-loving walkers in your neighborhood who'll treat your pup like family.</p>
+                            <p id="content-body" class="text-xl mb-8 max-w-2xl text-purple-200" :class="[contentBodyStyle]">Say goodbye to the hassle of walking your furry companion alone. Our app connects you with trusted, pet-loving walkers in your neighborhood who'll treat your pup like family.</p>
                         </div>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                        <div class="bg-purple-50 p-6 rounded-xl shadow-md">
-                            <i class='bx bx-map text-3xl text-purple-500 mb-4'></i>
-                            <h3 class="text-xl font-semibold mb-2 text-purple-700">Local Walks</h3>
-                            <p class="text-purple-600">Discover nearby walking routes perfect for your pup's needs.</p>
+                        <div class="bg-blue-900 p-6 rounded-xl shadow-md">
+                            <i class='bx bx-map text-3xl text-purple-400 mb-4'></i>
+                            <h3 class="text-xl font-semibold mb-2 text-white">Local Walks</h3>
+                            <p class="text-purple-200">Discover nearby walking routes perfect for your pup's needs.</p>
                         </div>
-                        <div class="bg-purple-50 p-6 rounded-xl shadow-md">
-                            <i class='bx bx-shield text-3xl text-purple-500 mb-4'></i>
-                            <h3 class="text-xl font-semibold mb-2 text-purple-700">Vetted Walkers</h3>
-                            <p class="text-purple-600">All our walkers are background-checked and pet-care certified.</p>
+                        <div class="bg-blue-900 p-6 rounded-xl shadow-md">
+                            <i class='bx bx-shield text-3xl text-purple-400 mb-4'></i>
+                            <h3 class="text-xl font-semibold mb-2 text-white">Vetted Walkers</h3>
+                            <p class="text-purple-200">All our walkers are background-checked and pet-care certified.</p>
                         </div>
-                        <div class="bg-purple-50 p-6 rounded-xl shadow-md">
-                            <i class='bx bx-time text-3xl text-purple-500 mb-4'></i>
-                            <h3 class="text-xl font-semibold mb-2 text-purple-700">Flexible Scheduling</h3>
-                            <p class="text-purple-600">Book walks anytime, from quick potty breaks to long adventures.</p>
+                        <div class="bg-blue-900 p-6 rounded-xl shadow-md">
+                            <i class='bx bx-time text-3xl text-purple-400 mb-4'></i>
+                            <h3 class="text-xl font-semibold mb-2 text-white">Flexible Scheduling</h3>
+                            <p class="text-purple-200">Book walks anytime, from quick potty breaks to long adventures.</p>
                         </div>
                     </div>
                     <div class="text-center mb-12">
-                        <a id="content-cta-button" href="#0" class="btn text-lg px-8 py-4 rounded-full transition duration-300 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">
+                        <a id="content-cta-button" href="#0" class="btn text-lg px-8 py-4 rounded-full transition duration-300 ease-in-out group bg-purple-600 text-white hover:bg-purple-700" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">
                             Get Started 
                             <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-1 transition-transform duration-300 ease-in-out ml-2" :class="contentCtaArrowStyle">
                                 <i class='bx bx-right-arrow-alt'></i>
                             </span>
                         </a>
                     </div>
-                    <div class="bg-purple-100 p-8 rounded-2xl">
-                        <h3 class="text-2xl font-semibold text-purple-800 mb-6 text-center">What Our Happy Pups Say</h3>
+                    <div class="bg-blue-900 p-8 rounded-2xl">
+                        <h3 class="text-2xl font-semibold text-white mb-6 text-center">What Our Happy Pups Say</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="bg-white p-6 rounded-xl shadow-md">
-                                <p class="text-purple-700 mb-4">"My dog loves his daily walks now! The app made finding a reliable walker so easy."</p>
+                            <div class="bg-blue-950 p-6 rounded-xl shadow-md">
+                                <p class="text-purple-200 mb-4">"My dog loves his daily walks now! The app made finding a reliable walker so easy."</p>
                                 <div class="flex items-center">
                                     <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="User Avatar" class="w-12 h-12 rounded-full mr-4">
                                     <div>
-                                        <p class="font-semibold text-purple-800">Sarah M.</p>
-                                        <p class="text-purple-600 text-sm">Dog Mom to Max</p>
+                                        <p class="font-semibold text-white">Sarah M.</p>
+                                        <p class="text-purple-300 text-sm">Dog Mom to Max</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bg-white p-6 rounded-xl shadow-md">
-                                <p class="text-purple-700 mb-4">"As a busy professional, this app has been a lifesaver for ensuring my pup gets his exercise!"</p>
+                            <div class="bg-blue-950 p-6 rounded-xl shadow-md">
+                                <p class="text-purple-200 mb-4">"As a busy professional, this app has been a lifesaver for ensuring my pup gets his exercise!"</p>
                                 <div class="flex items-center">
                                     <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User Avatar" class="w-12 h-12 rounded-full mr-4">
                                     <div>
-                                        <p class="font-semibold text-purple-800">James L.</p>
-                                        <p class="text-purple-600 text-sm">Proud owner of Luna</p>
+                                        <p class="font-semibold text-white">James L.</p>
+                                        <p class="text-purple-300 text-sm">Proud owner of Luna</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
             </div>
         </div>
     </section>`,
