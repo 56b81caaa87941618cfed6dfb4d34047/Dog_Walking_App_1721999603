@@ -52,6 +52,18 @@ Vue.component('contact_form_1722021497', {
             <textarea required class="w-full mt-2 h-24 px-4 py-3 resize-none appearance-none bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg text-purple-200" placeholder="e.g., feeding schedule, medication, special needs..."></textarea>
           </div>
           <div>
+            <label class="font-medium text-purple-300">Dog's Weight (lbs)</label>
+            <input type="number" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
+          </div>
+          <div>
+            <label class="font-medium text-purple-300">Dog's Tendencies</label>
+            <textarea required class="w-full mt-2 h-24 px-4 py-3 resize-none appearance-none bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg text-purple-200" placeholder="e.g., friendly, energetic, shy..."></textarea>
+          </div>
+          <div>
+            <label class="font-medium text-purple-300">Caretaking Information</label>
+            <textarea required class="w-full mt-2 h-24 px-4 py-3 resize-none appearance-none bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg text-purple-200" placeholder="e.g., feeding schedule, medication, special needs..."></textarea>
+          </div>
+          <div>
           <div>
             <label class="font-medium text-purple-300">Breed</label>
             <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-200 bg-purple-700 border-2 border-purple-500 focus:border-purple-300 focus:ring-2 focus:ring-purple-400 shadow-lg rounded-lg" />
