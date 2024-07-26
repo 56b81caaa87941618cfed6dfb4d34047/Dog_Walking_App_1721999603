@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive map to show dog walking paths and nearby parks\", \"checked\": true}, {\"feature\": \"Real-time weather updates and suggestions for dog walking times\", \"checked\": false}, {\"feature\": \"Profile pages for dogs including photos, age, and breed information\", \"checked\": false}, {\"feature\": \"In-app messaging for scheduling walks with other dog owners\", \"checked\": true}, {\"feature\": \"Gamification with achievements and badges for regular walks\", \"checked\": false}, {\"feature\": \"Emergency contact info and nearest vet information\", \"checked\": true}], \"input_token_count\": 208, \"output_token_count\": 131, \"time_taken\": \"0:00:03.079097\"}",
+        "message_id": "guest26072024131521",
+        "timestamp": "26072024131524",
+        "component_file_name": "dark_footer_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the yellow box to be located within the app?\", \"option1\": \"On the main navigation menu\", \"option2\": \"On the dog walk booking page\"}, {\"question 2\": \"What is the purpose of the yellow box? Is it for displaying alerts, information, or another function?\", \"option1\": \"To display alerts like 'booking successful' or 'error in booking'\", \"option2\": \"To provide additional information or tips about dog walking\"}], \"input_token_count\": 254, \"output_token_count\": 112, \"time_taken\": \"0:00:02.614418\"}",
         "message_id": "guest26072024131521",
