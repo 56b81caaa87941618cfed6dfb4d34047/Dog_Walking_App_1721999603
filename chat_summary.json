@@ -6,5 +6,11 @@
         "timestamp": "1721999604",
         "component_file_name": "",
         "div_id": ""
+    },
+    {
+        "role": "user",
+        "content": "add a ui widget for uniswap style swaps like the uniswap app",
+        "timestamp": "26072024131421",
+        "message_id": "guest26072024131420"
     }
 ]
