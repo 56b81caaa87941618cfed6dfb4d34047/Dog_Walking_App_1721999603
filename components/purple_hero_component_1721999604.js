@@ -9,11 +9,10 @@ Vue.component("purple_hero_component_1721999604", {
     <section id="hero-section-container">
         <div id="section-container" class="relative max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
-                <!-- Swap Form -->
                 <!-- Crypto Payment Form -->
-                <div id="crypto-payment-form" class="max-w-md mx-auto bg-purple-900 rounded-2xl shadow-lg p-6 mb-8">
-                    <h2 class="text-2xl font-bold text-purple-100 mb-4">Pay for Dog Walking</h2>
-                    <div class="mb-4">
+                <div id="crypto-payment-form" class="max-w-md mx-auto bg-gradient-to-br from-purple-900 to-indigo-900 rounded-2xl shadow-lg p-8 mb-8">
+                    <h2 class="text-2xl font-bold text-white mb-6">Pay for Dog Walking</h2>
+                    <div class="mb-6">
                         <label for="service" class="block text-sm font-medium text-purple-200 mb-2">Select Service</label>
                         <select id="service" class="w-full bg-purple-800 text-white rounded-xl p-3 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400">
                             <option value="30">30 min walk - $20</option>
@@ -21,7 +20,7 @@ Vue.component("purple_hero_component_1721999604", {
                             <option value="group">Group walk - $15</option>
                         </select>
                     </div>
-                    <div class="mb-4">
+                    <div class="mb-6">
                         <label for="crypto-currency" class="block text-sm font-medium text-purple-200 mb-2">Pay with</label>
                         <div class="flex items-center bg-purple-800 rounded-xl p-3">
                             <input type="number" placeholder="0" class="w-full bg-transparent text-white text-2xl font-semibold focus:outline-none" />
@@ -32,10 +31,10 @@ Vue.component("purple_hero_component_1721999604", {
                             </select>
                         </div>
                     </div>
-                    <div class="text-purple-200 text-sm mb-4">
+                    <div class="text-purple-200 text-sm mb-6">
                         1 ETH = $1,800 USD
                     </div>
-                    <button id="pay-button" class="w-full bg-purple-500 text-white rounded-xl py-3 px-4 font-semibold hover:bg-purple-600 transition duration-300 shadow-md">Pay Now</button>
+                    <button id="pay-button" class="w-full bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-xl py-4 px-6 font-semibold hover:from-purple-600 hover:to-indigo-600 transition duration-300 shadow-md">Pay Now</button>
                 </div>
                 <!-- Hero content -->
                 <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative;z-index: 1">
