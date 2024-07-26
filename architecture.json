@@ -70,5 +70,9 @@
     {
         "level": 1,
         "task_description": "add javascript code for interaction with the \"pay now\" button to prompt a metamask wallet to sign a txn on etheruem. make sure you use ethers.js"
+    },
+    {
+        "level": 1,
+        "task_description": "add javascript code for interaction with the \"pay now\" button to prompt a metamask wallet to sign a txn on etheruem. make sure you use ethers.js"
     }
 ]
