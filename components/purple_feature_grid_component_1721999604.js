@@ -55,7 +55,41 @@ Vue.component("purple_feature_grid_component_1721999604", {
             </div>
             <div class="flex" id="feature-6-description-container"><p id="feature-6-description" class="flex-1 text-sm" :class="textPrimaryStyle">Specify your dog's needs - senior care, medication administration, extra playtime, and more - so we can match you perfectly.</p></div>
         </div>
-    </div>`,
+    </div>
+    <div class="bg-white p-5 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-4 text-gray-800">Swap Tokens</h3>
+        <div class="space-y-4">
+            <div class="bg-gray-100 p-4 rounded-md">
+                <label class="block text-sm font-medium text-gray-700 mb-2">From</label>
+                <div class="flex items-center">
+                    <input type="number" placeholder="0.0" class="flex-grow p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <select class="ml-2 p-2 rounded-md border border-gray-300 bg-white">
+                        <option>ETH</option>
+                        <option>DAI</option>
+                        <option>USDC</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600">
+                    <i class='bx bx-transfer-alt'></i>
+                </button>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-md">
+                <label class="block text-sm font-medium text-gray-700 mb-2">To</label>
+                <div class="flex items-center">
+                    <input type="number" placeholder="0.0" class="flex-grow p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <select class="ml-2 p-2 rounded-md border border-gray-300 bg-white">
+                        <option>DAI</option>
+                        <option>ETH</option>
+                        <option>USDC</option>
+                    </select>
+                </div>
+            </div>
+            <button class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Swap</button>
+        </div>
+    </div>
+`,
         data() {
             return {
                 expanded: false, 
@@ -64,6 +98,15 @@ Vue.component("purple_feature_grid_component_1721999604", {
                 textPrimaryStyle: "text-slate-400",
                 textSecondaryStyle: "text-slate-50",
             };
+            };
         },
+        methods: {
+            // Start of swap method
+            swap() {
+                // Implement swap logic here
+                console.log('Swap executed');
+            }
+            // End of swap method
+        }
     });
                     
