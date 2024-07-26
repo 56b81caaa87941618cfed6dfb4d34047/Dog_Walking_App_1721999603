@@ -9,21 +9,29 @@ Vue.component("purple_hero_component_1721999604", {
     <section id="hero-section-container">
         <div id="section-container" class="relative max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
+                <!-- Swap Form -->
+                <div id="swap-form" class="max-w-md mx-auto bg-slate-800 rounded-lg shadow-lg p-6 mb-8">
+                    <h2 class="text-2xl font-bold text-white mb-4">Swap Tokens</h2>
+                    <div class="mb-4">
+                        <label for="from-token" class="block text-sm font-medium text-slate-300 mb-2">From</label>
+                        <select id="from-token" class="w-full bg-slate-700 text-white rounded-md p-2">
+                            <option value="eth">ETH</option>
+                            <option value="dai">DAI</option>
+                            <option value="usdc">USDC</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="to-token" class="block text-sm font-medium text-slate-300 mb-2">To</label>
+                        <select id="to-token" class="w-full bg-slate-700 text-white rounded-md p-2">
+                            <option value="dai">DAI</option>
+                            <option value="usdc">USDC</option>
+                            <option value="eth">ETH</option>
+                        </select>
+                    </div>
+                    <button id="swap-button" class="w-full bg-purple-600 text-white rounded-md p-2 hover:bg-purple-700 transition duration-300">Swap</button>
+                </div>
                 <!-- Hero content -->
                 <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative;z-index: 1">
-                    <div id="announcement-text" class="mb-6" data-aos="fade-down"><div id="announcement-text-inner" class="flex relative before:absolute before:inset-0 before:blur-md" :class="announcementTextStyle"><a id="announcement-link" class="flex-1 btn-sm py-0.5 transition duration-150 ease-in-out group relative before:absolute before:inset-0 before:rounded-full before:pointer-events-none shadow" href="#0" :class="[announcementLinkStyle, announcementLinkHoverStyle, announcementLinkGradientStyle, announcementLinkBeforeStyle]"><span id="announcement-link-text" class="relative inline-flex items-center">Introducing the ultimate dog walking companion app! <span id="announcement-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="landingPageAnnouncementTextStyle">-&gt;</span></span></a></div></div>
-                    <div class="flex" id="hero-text-container"><h1 id="hero-text" class="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4" data-aos="fade-down">Walk This Way: Your Furry Friend's Delight</h1></div>
-                    <div class="flex" id="sub-hero-text-container"><p id="sub-hero-text" class="flex-1 text-lg mb-8" data-aos="fade-down" data-aos-delay="200" :class="landingPageSubHeroTextStyle">Revolutionizing the way you explore the great outdoors with your canine pal. Fetch adventure, stay connected, and create lasting memories.</p></div>
-                    <div id="hero-buttons" class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
-                        <div id="get-started-button-container" class="flex"><a id="get-started-button" class="flex-1 btn w-full transition duration-150 ease-in-out group" href="#0" :class="[getStartedButtonPrimaryStyle, getStartedButtonGradientStyle, getStartedButtonHoverStyle]">Get Started <span id="get-started-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="getStartedArrowStyle">-&gt;</span></a></div>
-                        <div id="docs-button-container" class="flex">
-                            <a id="docs-button" class="flex-1 btn bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out" href="#0" :class="[docsButtonPrimaryStyle, docsButtonHoverStyle, docsButtonBackgroundStyle]">
-                                <svg id="docs-icon" class="shrink-0 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" :class="docsIconStyle"><path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" /></svg>
-                                <span id="docs-button-text">Read the docs</span>
-                            </a>
-                        </div>
-                    </div>
-    
                 </div>
     
             </div>
