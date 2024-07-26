@@ -42,5 +42,9 @@
     {
         "level": 1,
         "task_description": "add more to the form about your dog itself (weight, tendencies, caretaking info etc) "
+    },
+    {
+        "level": 1,
+        "task_description": "add to this form some payment method info to submit"
     }
 ]
