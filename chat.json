@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the color adjustment to pink, do you have a specific shade or hex code in mind that aligns with Uniswap\\u2019s color scheme?\", \"option1\": \"Yes, I will provide the specific color shade or hex code.\", \"option2\": \"No, please choose a pink shade that closely resembles Uniswap's branding.\"}, {\"question 2\": \"When you mention 'more detailed like Uniswap', are you referring to the inclusion of specific UI elements or the overall design complexity?\", \"option1\": \"I'm referring to specific UI elements such as buttons, icons, or forms.\", \"option2\": \"I mean the overall design complexity and style.\"}], \"input_token_count\": 358, \"output_token_count\": 151, \"time_taken\": \"0:00:03.759480\"}",
+        "message_id": "guest26072024140544",
+        "timestamp": "26072024140548",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Acknowledged, working on making it pink and more detailed.",
         "message_id": "guest26072024140544",
