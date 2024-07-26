@@ -11,24 +11,24 @@ Vue.component("purple_hero_component_1721999604", {
             <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
                 <!-- Swap Form -->
                 <div id="swap-form" class="max-w-md mx-auto bg-slate-800 rounded-lg shadow-lg p-6 mb-8">
-                    <h2 class="text-2xl font-bold text-white mb-4">Swap Tokens</h2>
+                    <h2 class="text-2xl font-bold text-purple-300 mb-4">Swap Tokens</h2>
                     <div class="mb-4">
-                        <label for="from-token" class="block text-sm font-medium text-slate-300 mb-2">From</label>
-                        <select id="from-token" class="w-full bg-slate-700 text-white rounded-md p-2">
+                        <label for="from-token" class="block text-sm font-medium text-purple-200 mb-2">From</label>
+                        <select id="from-token" class="w-full bg-slate-700 text-white rounded-md p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-600">
                             <option value="eth">ETH</option>
                             <option value="dai">DAI</option>
                             <option value="usdc">USDC</option>
                         </select>
                     </div>
                     <div class="mb-4">
-                        <label for="to-token" class="block text-sm font-medium text-slate-300 mb-2">To</label>
-                        <select id="to-token" class="w-full bg-slate-700 text-white rounded-md p-2">
+                        <label for="to-token" class="block text-sm font-medium text-purple-200 mb-2">To</label>
+                        <select id="to-token" class="w-full bg-slate-700 text-white rounded-md p-2 border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-600">
                             <option value="dai">DAI</option>
                             <option value="usdc">USDC</option>
                             <option value="eth">ETH</option>
                         </select>
                     </div>
-                    <button id="swap-button" class="w-full bg-purple-600 text-white rounded-md p-2 hover:bg-purple-700 transition duration-300">Swap</button>
+                    <button id="swap-button" class="w-full bg-purple-600 text-white rounded-md p-2 hover:bg-purple-700 transition duration-300 shadow-md">Swap</button>
                 </div>
                 <!-- Hero content -->
                 <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative;z-index: 1">
