@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Credit/Debit card payment option\", \"checked\": true}, {\"feature\": \"PayPal integration for secure transactions\", \"checked\": true}, {\"feature\": \"Google Pay and Apple Pay for seamless mobile payments\", \"checked\": false}, {\"feature\": \"Discount or coupon code field\", \"checked\": true}, {\"feature\": \"Payment confirmation page with summary details\", \"checked\": true}, {\"feature\": \"Option to save payment methods for future use\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 114, \"time_taken\": \"0:00:05.596617\"}",
+        "message_id": "guest26072024200055",
+        "timestamp": "26072024200102",
+        "component_file_name": "contact_form_1722021497",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Which payment methods would you like to integrate into your form (e.g., credit card, PayPal, etc.)?\", \"option1\": \"Credit/Debit Cards\", \"option2\": \"Digital Wallets (PayPal, Apple Pay, etc.)\"}, {\"question 2\": \"Do you prefer a direct onsite payment integration or redirecting users to the payment service provider's page?\", \"option1\": \"Direct onsite payment\", \"option2\": \"Redirect to service provider's page\"}], \"input_token_count\": 260, \"output_token_count\": 113, \"time_taken\": \"0:00:05.462751\"}",
         "message_id": "guest26072024200055",
