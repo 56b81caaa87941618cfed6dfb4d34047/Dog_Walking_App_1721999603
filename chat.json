@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Noted, I will include payment method information in the form.",
+        "message_id": "guest26072024200055",
+        "timestamp": "26072024200056",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add to this form some payment method info to submit",
         "message_id": "guest26072024200055",
