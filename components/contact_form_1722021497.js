@@ -1,47 +1,53 @@
 Vue.component('contact_form_1722021497', {
   template: `
-    <main class="flex justify-center align-center p-10">
-      <div class="w-fit max-w-lg p-8 bg-white shadow-lg rounded-lg">
+    <main class="flex justify-center align-center p-10 bg-purple-100">
+      <div class="w-fit max-w-lg p-8 bg-white shadow-xl rounded-2xl border-2 border-purple-300">
         <div>
-          <h3 class="text-black font-semibold text-xl">Get in Touch for Dog Walking Services</h3>
-          <p class="mt-3 text-black w-fit">We'll take your furry friend for a fun and safe walk!</p>
+          <h3 class="text-purple-800 font-bold text-2xl">Get in Touch for Dog Walking Services</h3>
+          <p class="mt-3 text-purple-600 w-fit">We'll take your furry friend for a fun and safe walk!</p>
         </div>
-        <form @submit.prevent class="space-y-5 mt-5">
+        <form @submit.prevent class="space-y-6 mt-6">
           <div>
-            <label class="font-medium text-black">Your Name</label>
-            <input type="text" required class="w-full mt-2 px-3 py-2 text-black bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg" />
+            <label class="font-medium text-purple-700">Your Name</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-black">Your Email</label>
-            <input type="email" required class="w-full mt-2 px-3 py-2 text-black bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg" />
+            <label class="font-medium text-purple-700">Your Email</label>
+            <input type="email" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
           </div>
           <div>
-            <label class="font-medium text-black">Your Phone Number</label>
+            <label class="font-medium text-purple-700">Your Phone Number</label>
             <div class="relative mt-2">
-              <select v-model="countryCode" class="text-sm bg-white outline-none rounded-lg h-full text-black">
+              <select v-model="countryCode" class="absolute left-0 top-0 bottom-0 text-sm bg-purple-200 outline-none rounded-l-lg px-3 text-purple-800 border-2 border-purple-300">
                 <option value="US">US</option>
                 <option value="ES">ES</option>
                 <option value="MR">MR</option>
               </select>
-              <input type="number" :placeholder="getPhoneNumberPlaceholder(countryCode)" required class="w-full pl-4 pr-3 py-2 appearance-none bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg text-black" />
+              <input type="number" :placeholder="getPhoneNumberPlaceholder(countryCode)" required class="w-full pl-20 pr-4 py-3 appearance-none bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg text-purple-800" />
             </div>
           </div>
           <div>
-            <label class="font-medium text-black">Dog's Name</label>
-            <ul class="grid gap-y-2 gap-x-6 flex-wrap grid-cols-2 mt-3">
-              <li v-for="(item, idx) in servicesItems" :key="idx" class="flex gap-x-3 text-xs justify-between space-between">
-                <div>
-                  <input :id="'service-' + idx" type="checkbox" class="relative flex w-5 h-5 bg-white rounded-md border ring-offset-2 ring-green-600 duration-150 checkbox-item peer cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45 text-black" />
-                </div>
-                <label :for="'service-' + idx" class="cursor-pointer text-black">{ item }</label>
+            <label class="font-medium text-purple-700">Dog's Name</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
+          </div>
+          <div>
+            <label class="font-medium text-purple-700">Services</label>
+            <ul class="grid gap-y-3 gap-x-6 flex-wrap grid-cols-2 mt-3">
+              <li v-for="(item, idx) in servicesItems" :key="idx" class="flex items-center gap-x-3 text-sm">
+                <input :id="'service-' + idx" type="checkbox" class="w-5 h-5 bg-purple-100 border-2 border-purple-400 rounded-md focus:ring-2 focus:ring-purple-300 text-purple-600 cursor-pointer" />
+                <label :for="'service-' + idx" class="cursor-pointer text-purple-700">{ item }</label>
               </li>
             </ul>
           </div>
           <div>
-            <label class="font-medium text-black">Breed</label>
-            <textarea required class="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-white border border-gray-300 focus:border-green-500 shadow-sm rounded-lg text-black"></textarea>
+            <label class="font-medium text-purple-700">Breed</label>
+            <input type="text" required class="w-full mt-2 px-4 py-3 text-purple-800 bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg" />
           </div>
-          <button class="w-full px-4 py-2 text-white font-medium bg-green-600 hover:bg-green-500 active:bg-green-700 rounded-lg duration-150">Any Special Needs?</button>
+          <div>
+            <label class="font-medium text-purple-700">Any Special Needs?</label>
+            <textarea required class="w-full mt-2 h-36 px-4 py-3 resize-none appearance-none bg-purple-50 border-2 border-purple-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 shadow-md rounded-lg text-purple-800"></textarea>
+          </div>
+          <button class="w-full px-6 py-3 text-white font-medium bg-purple-600 hover:bg-purple-500 active:bg-purple-700 rounded-lg shadow-lg transition duration-150 ease-in-out transform hover:scale-105">Submit</button>
         </form>
       </div>
     </main>
@@ -55,7 +61,8 @@ Vue.component('contact_form_1722021497', {
         '30 Minute Walk',
         '60 Minute Walk',
         'Dog Park Visit',
-        'Overnight Sitting'
+        'Overnight Sitting',
+        'Training Session'
       ],
       countryCode: 'US'
     };
