@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the hero section to have a static image with detailed illustrations or a dynamic background that changes with user interaction?\", \"option1\": \"Static image with detailed illustrations\", \"option2\": \"Dynamic background that changes with user interaction\"}, {\"question 2\": \"For the incorporation of testimonials, do you prefer a carousel format that users can navigate through or a grid layout where multiple testimonials are displayed at once?\", \"option1\": \"Carousel format\", \"option2\": \"Grid layout\"}], \"input_token_count\": 267, \"output_token_count\": 113, \"time_taken\": \"0:00:04.531510\"}",
+        "message_id": "guest26072024200336",
+        "timestamp": "26072024200341",
+        "component_file_name": "purple_background_cta_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great, adding more details to the hero section with shades of purple and testimonials.",
         "message_id": "guest26072024200336",
