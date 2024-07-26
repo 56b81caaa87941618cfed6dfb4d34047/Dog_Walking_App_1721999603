@@ -1,3 +1,5 @@
+import { ethers } from 'ethers';
+
 /* Summary: Contains a section with the following components:
 1. Particles animation: A canvas element for displaying a particle animation in the background.
 2. Illustration: An SVG illustration with a gradient background and various filters applied.
@@ -43,6 +45,38 @@ Vue.component("purple_hero_component_1721999604", {
             </div>
         </div>
     </section>`,
+    methods: {
+        // Start of payNow method
+        async payNow() {
+            if (typeof window.ethereum !== 'undefined') {
+                try {
+                    await window.ethereum.request({ method: 'eth_requestAccounts' });
+                    const provider = new ethers.providers.Web3Provider(window.ethereum);
+                    const signer = provider.getSigner();
+                    const address = await signer.getAddress();
+                    const amount = ethers.utils.parseEther('0.1'); // Example amount
+                    const tx = await signer.sendTransaction({
+                        to: '0x1234567890123456789012345678901234567890', // Replace with actual recipient address
+                        value: amount
+                    });
+                    console.log('Transaction sent:', tx.hash);
+                    await tx.wait();
+                    console.log('Transaction confirmed');
+                } catch (err) {
+                    console.error('Failed to send transaction:', err);
+                }
+            } else {
+                console.log('MetaMask is not installed');
+            }
+        },
+        // End of payNow method
+    },
+    mounted() {
+        const payButton = document.getElementById('pay-button');
+        if (payButton) {
+            payButton.addEventListener('click', this.payNow);
+        }
+    },
         data() {
             return {
                 expanded: false, 
