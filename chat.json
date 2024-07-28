@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "reaplce all the text with placeholder content about dog walking.. this is top nav for a dog walking app",
+        "message_id": "guest28072024153905",
+        "timestamp": "28072024153906",
+        "component_file_name": "purple_header_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Noted, I'll work on adding more placeholder top nav links.",
         "message_id": "guest28072024153457",
