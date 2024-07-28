@@ -190,5 +190,9 @@
     {
         "level": 1,
         "task_description": "restyle this to be netflix-style tailwind css"
+    },
+    {
+        "level": 1,
+        "task_description": "restyle this to be netflix-style tailwind css"
     }
 ]
