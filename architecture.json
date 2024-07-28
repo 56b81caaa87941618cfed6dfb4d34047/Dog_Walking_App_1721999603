@@ -186,5 +186,9 @@
     {
         "level": 1,
         "task_description": "make it more stylish and more detailed tailwind css. add more content and shadows and rounded corners and underlines and best practices for beautiful style"
+    },
+    {
+        "level": 1,
+        "task_description": "restyle this to be netflix-style tailwind css"
     }
 ]
