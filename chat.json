@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add SVGs for icons of dogs. add one next to the form titel and next to each form input field",
+        "message_id": "guest28072024152051",
+        "timestamp": "28072024152051",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great, I'll work on rebranding the form and adding SVGs for Go icons.",
         "message_id": "guest28072024152005",
