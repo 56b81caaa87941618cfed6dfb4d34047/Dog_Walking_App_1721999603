@@ -78,5 +78,9 @@
     {
         "level": 1,
         "task_description": "replace all the content with a yellow box., delete all code and replace with yellow box"
+    },
+    {
+        "level": 1,
+        "task_description": "replace all the content with a yellow box., delete all code and replace with yellow box"
     }
 ]
