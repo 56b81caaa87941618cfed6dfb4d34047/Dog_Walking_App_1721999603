@@ -2,7 +2,10 @@ Vue.component("purple_hero_component_1721999604", {
     template: `
     <div class="bg-gradient-to-br from-purple-900 to-indigo-900 w-full h-full p-20 rounded-xl shadow-lg">
         <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-8 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold mb-6 text-center text-purple-200"><i class='bx bxs-dog text-4xl mr-2 text-purple-300'></i>Dog Drop Off and Pickup Times</h2>
+            <div class="bg-gradient-to-br from-purple-700 to-indigo-700 p-6 rounded-lg shadow-md mb-6">
+                <h2 class="text-4xl font-extrabold mb-2 text-center text-purple-200"><i class='bx bxs-dog text-5xl mr-3 text-purple-300'></i>Dog Drop Off and Pickup Times</h2>
+                <p class="text-xl text-center text-purple-300">Schedule your furry friend's stay with us</p>
+            </div>
             <form class="space-y-6">
                 <div class="grid grid-cols-2 gap-6">
                     <div class="flex-1">
