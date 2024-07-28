@@ -98,5 +98,9 @@
     {
         "level": 1,
         "task_description": "rebrand the form as bring purple and add SVGs for go icons"
+    },
+    {
+        "level": 1,
+        "task_description": "add SVGs for icons of dogs. add one next to the form titel and next to each form input field"
     }
 ]
