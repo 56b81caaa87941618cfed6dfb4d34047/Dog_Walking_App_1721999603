@@ -86,5 +86,9 @@
     {
         "level": 1,
         "task_description": "add a big form to describe your dog and their diet. generate svg's of dog cartoons to style the form with cute icons"
+    },
+    {
+        "level": 1,
+        "task_description": "add a big form to describe your dog and their diet. generate svg's of dog cartoons to style the form with cute icons"
     }
 ]
