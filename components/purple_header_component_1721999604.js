@@ -23,6 +23,27 @@ Vue.component("purple_header_component_1721999604", {
                 </a>
             </nav>
         </div>
+        <div class="mt-8 max-w-7xl mx-auto">
+            <h1 class="text-4xl font-bold text-purple-100 mb-4">Welcome to MyApp</h1>
+            <p class="text-xl text-purple-200">Discover amazing features and content.</p>
+        </div>
+        <div class="mt-8 max-w-7xl mx-auto grid grid-cols-3 gap-8">
+            <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+                <i class='bx bx-rocket text-5xl text-purple-200 mb-4'></i>
+                <h2 class="text-2xl font-semibold text-purple-100 mb-2">Fast Performance</h2>
+                <p class="text-purple-300">Experience lightning-fast loading times and smooth interactions.</p>
+            </div>
+            <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+                <i class='bx bx-shield text-5xl text-purple-200 mb-4'></i>
+                <h2 class="text-2xl font-semibold text-purple-100 mb-2">Secure Platform</h2>
+                <p class="text-purple-300">Your data is protected with state-of-the-art security measures.</p>
+            </div>
+            <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+                <i class='bx bx-support text-5xl text-purple-200 mb-4'></i>
+                <h2 class="text-2xl font-semibold text-purple-100 mb-2">24/7 Support</h2>
+                <p class="text-purple-300">Our dedicated team is always here to assist you.</p>
+            </div>
+        </div>
     </header>
     `,
 });
