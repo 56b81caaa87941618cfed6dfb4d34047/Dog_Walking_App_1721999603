@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "replace all the content with a yellow box., delete all code and replace with yellow box",
+        "message_id": "guest28072024151833",
+        "timestamp": "28072024151834",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, removing the ethers.js stuff as requested.",
         "message_id": "guest26072024202236",
