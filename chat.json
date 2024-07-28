@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the form to be a single, comprehensive page or broken down into multiple, shorter steps for ease of completion?\", \"option1\": \"Single, comprehensive page\", \"option2\": \"Multiple, shorter steps\"}, {\"question 2\": \"For the SVG dog cartoons, do you have specific dog breeds or cartoon styles in mind, or should we design a variety of generic, stylized dog icons?\", \"option1\": \"Specific dog breeds or cartoon styles\", \"option2\": \"Generic, stylized dog icons\"}], \"input_token_count\": 275, \"output_token_count\": 121, \"time_taken\": \"0:00:03.391546\"}",
+        "message_id": "guest28072024151927",
+        "timestamp": "28072024151931",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'll add a form to describe your dog and generate cute icons.",
         "message_id": "guest28072024151927",
