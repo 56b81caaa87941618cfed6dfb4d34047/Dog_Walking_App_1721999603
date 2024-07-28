@@ -126,5 +126,9 @@
     {
         "level": 1,
         "task_description": "make the form titled styled more detailed with its own section/div and a purple gradient behind it"
+    },
+    {
+        "level": 1,
+        "task_description": "make the form titled styled more detailed with its own section/div and a purple gradient behind it"
     }
 ]
