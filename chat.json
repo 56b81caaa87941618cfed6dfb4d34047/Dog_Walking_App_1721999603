@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Generic message response: \"Thank you for using our dog walking app. How may I assist you with your dog walking needs?\"\n\nFeature request response: \"Noted, we'll work on adding that feature to our dog walking app.\"",
+        "message_id": "guest28072024153905",
+        "timestamp": "28072024153907",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "reaplce all the text with placeholder content about dog walking.. this is top nav for a dog walking app",
         "message_id": "guest28072024153905",
