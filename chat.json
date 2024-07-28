@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What type of placeholder content are you looking to add? Would you prefer it be related to dog care tips or general app usage instructions?\", \"option1\": \"Dog care tips\", \"option2\": \"General app usage instructions\"}, {\"question 2\": \"Where would you like the additional placeholder content to be located? Are you thinking of having it on the main landing page or within specific sections of the app?\", \"option1\": \"Main landing page\", \"option2\": \"Specific sections of the app\"}], \"input_token_count\": 254, \"output_token_count\": 117, \"time_taken\": \"0:00:02.559191\"}",
+        "message_id": "guest28072024153328",
+        "timestamp": "28072024153331",
+        "component_file_name": "purple_header_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I can add more placeholder content for you.",
         "message_id": "guest28072024153328",
