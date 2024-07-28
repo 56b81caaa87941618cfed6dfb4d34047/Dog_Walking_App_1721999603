@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Okay, I will work on replacing the hero content with bright and fun placeholder content featuring various types of dogs.",
+        "message_id": "guest28072024152616",
+        "timestamp": "28072024152617",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace all the content in this hero, with breight fun placeholder content and bout various types of dogs",
         "message_id": "guest28072024152616",
