@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Adding SVGs of dogs for the form and input fields.",
+        "message_id": "guest28072024152051",
+        "timestamp": "28072024152051",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add SVGs for icons of dogs. add one next to the form titel and next to each form input field",
         "message_id": "guest28072024152051",
