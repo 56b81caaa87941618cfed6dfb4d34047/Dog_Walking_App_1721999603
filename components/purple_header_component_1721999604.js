@@ -8,7 +8,7 @@ Vue.component("purple_header_component_1721999604", {
                     <span class="text-purple-200 text-2xl font-bold tracking-wider">MyApp</span>
                 </a>
             </div>
-            <nav class="flex items-center space-x-8">
+            <nav class="flex items-center space-x-6">
                 <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
                     <i class='bx bx-home text-3xl'></i>
                 </a>
@@ -29,6 +29,15 @@ Vue.component("purple_header_component_1721999604", {
                 </a>
                 <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
                     <i class='bx bx-message-square-dots text-3xl'></i>
+                </a>
+                <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
+                    <i class='bx bx-folder text-3xl'></i>
+                </a>
+                <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
+                    <i class='bx bx-calendar text-3xl'></i>
+                </a>
+                <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
+                    <i class='bx bx-bookmark text-3xl'></i>
                 </a>
             </nav>
         </div>
