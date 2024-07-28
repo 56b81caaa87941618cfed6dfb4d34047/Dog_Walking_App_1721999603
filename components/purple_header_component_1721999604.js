@@ -7,7 +7,7 @@
 Vue.component("purple_header_component_1721999604", {
     template: `
     <header class="w-full z-30" id="header-section-container">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-gradient-to-r from-purple-800 to-purple-600">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500">
             <div class="flex items-center justify-between h-16 md:h-20">
     
                 <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar"></a></div>
@@ -25,10 +25,10 @@ Vue.component("purple_header_component_1721999604", {
                 </nav>
     
                 <div id="desktop-profile" class="flex-1 flex justify-end items-center">
-                    <a id="dog-profile-link" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out flex items-center text-white hover:text-purple-200" href="profile.html">
-                        <i class='bx bx-dog text-2xl mr-2'></i>
-                        Dog Profile
-                    </a>
+                    <button id="my-account-button" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out flex items-center text-white hover:text-purple-200 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg shadow-md" @click="openMyAccount">
+                        <i class='bx bx-user-circle text-2xl mr-2'></i>
+                        My Account
+                    </button>
                 </div>
     
                 <div id="mobile-menu" class="md:hidden flex items-center ml-4" x-data="{ expanded: false }">
@@ -65,9 +65,17 @@ Vue.component("purple_header_component_1721999604", {
                 hoverTextStylePrimary: 'hover:text-purple-200',
                 signUpButtonText: "text-white",
                 signUpButtonHover: "hover:text-purple-200",
-                signUpButtonGradient: "bg-purple-700",
+                signUpButtonGradient: "bg-purple-600",
                 signUpButtonArrow: "text-purple-300",
             };
+        },
+        methods: {
+            // Start of openMyAccount method
+            openMyAccount() {
+                // Add logic to open My Account section
+                console.log('Opening My Account section');
+            }
+            // End of openMyAccount method
         },
     });
                     
