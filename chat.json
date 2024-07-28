@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the placeholder content to focus more on educational information about different types of dogs, or should it be more lighthearted and fun facts?\", \"option1\": \"Educational information about different dog breeds\", \"option2\": \"Lighthearted and fun facts about dogs\"}, {\"question 2\": \"For the hero section's design, do you prefer a vibrant and colorful scheme or a more minimalist design with bright accents?\", \"option1\": \"Vibrant and colorful\", \"option2\": \"Minimalist with bright accents\"}], \"input_token_count\": 270, \"output_token_count\": 127, \"time_taken\": \"0:00:03.617730\"}",
+        "message_id": "guest28072024152616",
+        "timestamp": "28072024152621",
+        "component_file_name": "purple_background_cta_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I will work on replacing the hero content with bright and fun placeholder content featuring various types of dogs.",
         "message_id": "guest28072024152616",
