@@ -21,6 +21,15 @@ Vue.component("purple_header_component_1721999604", {
                 <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
                     <i class='bx bx-user text-3xl'></i>
                 </a>
+                <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
+                    <i class='bx bx-cog text-3xl'></i>
+                </a>
+                <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
+                    <i class='bx bx-help-circle text-3xl'></i>
+                </a>
+                <a href="#" class="text-purple-300 hover:text-purple-100 transition duration-300">
+                    <i class='bx bx-message-square-dots text-3xl'></i>
+                </a>
             </nav>
         </div>
         <div class="mt-8 max-w-7xl mx-auto">
