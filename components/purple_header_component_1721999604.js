@@ -25,7 +25,7 @@ Vue.component("purple_header_component_1721999604", {
                 </nav>
     
                 <div id="desktop-profile" class="flex-1 flex justify-end items-center">
-                    <button id="my-account-button" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out flex items-center text-white hover:text-purple-200 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg shadow-md" @click="openMyAccount">
+                    <button id="my-account-button" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out flex items-center text-white hover:text-purple-300 bg-gradient-to-r from-purple-800 to-purple-600 hover:from-purple-700 hover:to-purple-500 px-4 py-2 rounded-lg shadow-md" @click="openMyAccount">
                         <i class='bx bx-user-circle text-2xl mr-2'></i>
                         My Account
                     </button>
@@ -43,7 +43,7 @@ Vue.component("purple_header_component_1721999604", {
                     </button>
     
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
-                        <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 bg-purple-700">
+                        <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500">
                             <li><a id="mobile-Book Walks-link" class="flex font-medium text-sm py-1.5 text-white hover:text-purple-200" href="Book Walks.html">Book Walks</a></li>
                             <li><a id="mobile-Walker Profiles-link" class="flex font-medium text-sm py-1.5 text-white hover:text-purple-200" href="Walker Profiles.html">Walker Profiles</a></li>
                             <li><a id="mobile-Doggy Day Care-link" class="flex font-medium text-sm py-1.5 text-white hover:text-purple-200" href="Doggy Day Care.html">Doggy Day Care</a></li>
