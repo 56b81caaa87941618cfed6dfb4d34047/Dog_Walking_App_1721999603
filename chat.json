@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the SVG icons to be uniform for all input fields, or should each input field have a unique SVG icon representing different aspects of dog walking?\", \"option1\": \"Uniform SVG icons for all input fields\", \"option2\": \"Unique SVG icons for each input field\"}, {\"question 2\": \"For the SVG icon next to the form title, do you prefer a specific size or should it match the size of the icons next to the input fields?\", \"option1\": \"Match the size of the icons next to the input fields\", \"option2\": \"A specific size (please specify)\"}], \"input_token_count\": 273, \"output_token_count\": 138, \"time_taken\": \"0:00:06.058608\"}",
+        "message_id": "guest28072024152051",
+        "timestamp": "28072024152058",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Custom animated loading icons featuring playful dogs\", \"checked\": false}, {\"feature\": \"Interactive map interface for selecting walk routes with dog paw icons\", \"checked\": true}, {\"feature\": \"User profile avatars with dog-themed SVG options\", \"checked\": false}, {\"feature\": \"Dynamic form validation messages with dog illustrations\", \"checked\": true}, {\"feature\": \"SVG-based interactive slider for setting walk duration with a cute dog walking animation\", \"checked\": false}, {\"feature\": \"Feedback or rating icons as dog treats or toys SVGs for user engagement\", \"checked\": true}], \"input_token_count\": 227, \"output_token_count\": 123, \"time_taken\": \"0:00:05.537780\"}",
         "message_id": "guest28072024152051",
