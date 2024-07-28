@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, I can add more placeholder content for you.",
+        "message_id": "guest28072024153328",
+        "timestamp": "28072024153328",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add more placeholder content",
         "message_id": "guest28072024153328",
