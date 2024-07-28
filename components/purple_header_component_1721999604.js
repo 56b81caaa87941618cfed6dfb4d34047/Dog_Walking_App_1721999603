@@ -6,69 +6,45 @@
 
 Vue.component("purple_header_component_1721999604", {
     template: `
-    <header class="w-full z-30" id="header-section-container">
-        <div class="max-w-6xl mx-auto px-8 sm:px-10 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-700 shadow-2xl rounded-b-2xl">
-            <div class="flex items-center justify-between h-20 md:h-24">
-    
-                <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex items-center space-x-3 transition duration-300 ease-in-out transform hover:scale-110" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none rounded-full shadow-lg border-2 border-purple-300" src="./images/logo.svg" width="56" height="56" alt="Stellar"><span class="text-2xl font-extrabold text-white tracking-wide">Stellar</span></a></div>
-    
-                <nav id="desktop-navigation" class="hidden md:flex md:grow">
-    
-                    <ul id="desktop-menu-links" class="flex grow justify-center flex-wrap items-center space-x-2">
-                        <li><a id="Book Walks-link" class="font-semibold text-sm px-5 py-3 mx-1 lg:mx-2 transition duration-300 ease-in-out text-white hover:text-purple-200 hover:bg-navy-600 rounded-xl shadow-md" href="Book Walks.html"><i class='bx bx-walk mr-2 text-purple-300'></i>Book Walks</a></li>
-                        <li><a id="Walker Profiles-link" class="font-semibold text-sm px-5 py-3 mx-1 lg:mx-2 transition duration-300 ease-in-out text-white hover:text-purple-200 hover:bg-navy-600 rounded-xl shadow-md" href="Walker Profiles.html"><i class='bx bx-user-pin mr-2 text-purple-300'></i>Walker Profiles</a></li>
-                        <li><a id="Doggy Day Care-link" class="font-semibold text-sm px-5 py-3 mx-1 lg:mx-2 transition duration-300 ease-in-out text-white hover:text-purple-200 hover:bg-navy-600 rounded-xl shadow-md" href="Doggy Day Care.html"><i class='bx bx-dog mr-2 text-purple-300'></i>Doggy Day Care</a></li>
-                        <li><a id="Pet Supplies-link" class="font-semibold text-sm px-5 py-3 mx-1 lg:mx-2 transition duration-300 ease-in-out text-white hover:text-purple-200 hover:bg-navy-600 rounded-xl shadow-md" href="Pet Supplies.html"><i class='bx bx-store mr-2 text-purple-300'></i>Pet Supplies</a></li>
-                        <li><a id="My Account-link" class="font-semibold text-sm px-5 py-3 mx-1 lg:mx-2 transition duration-300 ease-in-out text-white hover:text-purple-200 hover:bg-navy-600 rounded-xl shadow-md" href="My Account.html"><i class='bx bx-user-circle mr-2 text-purple-300'></i>My Account</a></li>
-                    </ul>
-    
+    <header class="bg-black py-4 px-6">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center">
+                    <img src="./images/logo.svg" alt="Stellar" class="h-8 w-8 mr-2">
+                    <span class="text-red-600 text-2xl font-bold">Stellar</span>
+                </a>
+                <nav class="hidden md:flex ml-10">
+                    <a href="Book Walks.html" class="text-gray-300 hover:text-white mx-4">Book Walks</a>
+                    <a href="Walker Profiles.html" class="text-gray-300 hover:text-white mx-4">Walker Profiles</a>
+                    <a href="Doggy Day Care.html" class="text-gray-300 hover:text-white mx-4">Doggy Day Care</a>
+                    <a href="Pet Supplies.html" class="text-gray-300 hover:text-white mx-4">Pet Supplies</a>
+                    <a href="My Account.html" class="text-gray-300 hover:text-white mx-4">My Account</a>
                 </nav>
-    
-                <div id="desktop-profile" class="flex-1 flex justify-end items-center">
-                    <button id="my-account-button" class="font-semibold text-sm whitespace-nowrap transition duration-300 ease-in-out flex items-center text-white hover:text-purple-200 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400 px-7 py-3 rounded-xl shadow-lg transform hover:scale-105" @click="openMyAccount">
-                        <i class='bx bx-user-circle text-2xl mr-3 text-purple-200'></i>
-                        My Account
-                    </button>
-                </div>
-    
-                <div id="mobile-menu" class="md:hidden flex items-center ml-4" x-data="{ expanded: false }">
-    
-                    <button id="hamburger-button" class="hamburger p-3 rounded-xl bg-navy-600 hover:bg-navy-500 transition duration-300 ease-in-out shadow-md" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
-                        <span class="sr-only">Menu</span>
-                        <svg id="hamburger-icon" class="w-7 h-7 fill-current transition duration-300 ease-in-out text-white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <rect y="2" width="20" height="2" rx="1" />
-                            <rect y="9" width="20" height="2" rx="1" />
-                            <rect y="16" width="20" height="2" rx="1" />
-                        </svg>
-                    </button>
-    
-                    <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
-                        <ul id="mobile-nav-list" class="border border-purple-400 rounded-xl px-5 py-3 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-700 shadow-xl">
-                            <li><a id="mobile-Book Walks-link" class="flex font-semibold text-sm py-3 px-4 text-white hover:text-purple-200 hover:bg-navy-600 rounded-lg transition duration-300 ease-in-out shadow-md my-2" href="Book Walks.html"><i class='bx bx-walk mr-3 text-purple-300'></i>Book Walks</a></li>
-                            <li><a id="mobile-Walker Profiles-link" class="flex font-semibold text-sm py-3 px-4 text-white hover:text-purple-200 hover:bg-navy-600 rounded-lg transition duration-300 ease-in-out shadow-md my-2" href="Walker Profiles.html"><i class='bx bx-user-pin mr-3 text-purple-300'></i>Walker Profiles</a></li>
-                            <li><a id="mobile-Doggy Day Care-link" class="flex font-semibold text-sm py-3 px-4 text-white hover:text-purple-200 hover:bg-navy-600 rounded-lg transition duration-300 ease-in-out shadow-md my-2" href="Doggy Day Care.html"><i class='bx bx-dog mr-3 text-purple-300'></i>Doggy Day Care</a></li>
-                            <li><a id="mobile-Pet Supplies-link" class="flex font-semibold text-sm py-3 px-4 text-white hover:text-purple-200 hover:bg-navy-600 rounded-lg transition duration-300 ease-in-out shadow-md my-2" href="Pet Supplies.html"><i class='bx bx-store mr-3 text-purple-300'></i>Pet Supplies</a></li>
-                            <li><a id="mobile-My Account-link" class="flex font-semibold text-sm py-3 px-4 text-white hover:text-purple-200 hover:bg-navy-600 rounded-lg transition duration-300 ease-in-out shadow-md my-2" href="My Account.html"><i class='bx bx-user-circle mr-3 text-purple-300'></i>My Account</a></li>
-                        </ul>
-                    </nav>
-    
-                </div>
-    
+            </div>
+            <div class="flex items-center">
+                <button @click="openMyAccount" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                    My Account
+                </button>
+                <button @click="expanded = !expanded" class="ml-4 text-white md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
             </div>
         </div>
-    </header>`,
-        data() {
-            return {
-                expanded: false, 
-                tab: null,
-                textStylePrimary: 'text-white',
-                hoverTextStylePrimary: 'hover:text-purple-200',
-                signUpButtonText: "text-white",
-                signUpButtonHover: "hover:text-purple-200",
-                signUpButtonGradient: "bg-purple-600",
-                signUpButtonArrow: "text-purple-300",
-            };
-        },
+        <nav x-show="expanded" class="md:hidden mt-4">
+            <a href="Book Walks.html" class="block text-gray-300 hover:text-white py-2">Book Walks</a>
+            <a href="Walker Profiles.html" class="block text-gray-300 hover:text-white py-2">Walker Profiles</a>
+            <a href="Doggy Day Care.html" class="block text-gray-300 hover:text-white py-2">Doggy Day Care</a>
+            <a href="Pet Supplies.html" class="block text-gray-300 hover:text-white py-2">Pet Supplies</a>
+            <a href="My Account.html" class="block text-gray-300 hover:text-white py-2">My Account</a>
+        </nav>
+    </header>
+    data() {
+        return {
+            expanded: false,
+        };
+    },
         methods: {
             // Start of openMyAccount method
             openMyAccount() {
