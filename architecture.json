@@ -82,5 +82,9 @@
     {
         "level": 1,
         "task_description": "replace all the content with a yellow box., delete all code and replace with yellow box"
+    },
+    {
+        "level": 1,
+        "task_description": "add a big form to describe your dog and their diet. generate svg's of dog cartoons to style the form with cute icons"
     }
 ]
