@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the new dog drop off and pickup times form to be an interactive calendar view where users can select the dates and times, or a simple form field entry?\", \"option1\": \"Interactive calendar view\", \"option2\": \"Simple form field entry\"}, {\"question 2\": \"Should the form include a section for special instructions related to the dog(s), such as preferences or care instructions?\", \"option1\": \"Yes, include a section for special instructions.\", \"option2\": \"No, keep it focused only on the drop off and pickup times.\"}], \"input_token_count\": 264, \"output_token_count\": 128, \"time_taken\": \"0:00:03.842825\"}",
+        "message_id": "guest28072024152257",
+        "timestamp": "28072024152302",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Noted, I will create a form for dog drop off and pickup times.",
         "message_id": "guest28072024152257",
