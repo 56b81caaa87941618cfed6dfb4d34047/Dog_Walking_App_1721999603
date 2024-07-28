@@ -7,7 +7,7 @@
 Vue.component("purple_header_component_1721999604", {
     template: `
     <header class="w-full z-30" id="header-section-container">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-purple-600">
             <div class="flex items-center justify-between h-16 md:h-20">
     
                 <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar"></a></div>
@@ -24,10 +24,12 @@ Vue.component("purple_header_component_1721999604", {
     
                 </nav>
     
-                <ul id="desktop-sign-in-links" class="flex-1 flex justify-end items-center">
-                    <li><a id="sign-in-link" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out" href="signin.html" :class="[textStylePrimary, hoverTextStylePrimary]">Sign in</a></li>
-                    <li class="ml-6"><a id="sign-up-link" class="btn-sm transition duration-150 ease-in-out w-full group relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" href="signup.html" :class="[signUpButtonText, signUpButtonHover, signUpButtonGradient]"><span class="relative inline-flex items-center">Sign up <span id="sign-up-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="signUpButtonArrow">-&gt;</span></span></a></li>
-                </ul>
+                <div id="desktop-profile" class="flex-1 flex justify-end items-center">
+                    <a id="dog-profile-link" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out flex items-center" href="profile.html" :class="[textStylePrimary, hoverTextStylePrimary]">
+                        <i class='bx bx-dog text-2xl mr-2'></i>
+                        Dog Profile
+                    </a>
+                </div>
     
                 <div id="mobile-menu" class="md:hidden flex items-center ml-4" x-data="{ expanded: false }">
     
@@ -59,12 +61,12 @@ Vue.component("purple_header_component_1721999604", {
             return {
                 expanded: false, 
                 tab: null,
-                textStylePrimary: 'text-slate-300',
-                hoverTextStylePrimary: 'hover:text-white',
-                signUpButtonText: "text-slate-300",
-                signUpButtonHover: "hover:text-white",
-                signUpButtonGradient: "[background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]",
-                signUpButtonArrow: "text-purple-500",
+                textStylePrimary: 'text-white',
+                hoverTextStylePrimary: 'hover:text-purple-200',
+                signUpButtonText: "text-white",
+                signUpButtonHover: "hover:text-purple-200",
+                signUpButtonGradient: "bg-purple-700",
+                signUpButtonArrow: "text-purple-300",
             };
         },
     });

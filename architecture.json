@@ -130,5 +130,9 @@
     {
         "level": 1,
         "task_description": "make the form titled styled more detailed with its own section/div and a purple gradient behind it"
+    },
+    {
+        "level": 1,
+        "task_description": "restyle the top nav to a beautiful, colorful puble shade and repalce the sign in with a dog profile (account profile)"
     }
 ]
