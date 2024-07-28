@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the testimonials to be from dog owners, dog walkers, or a mix of both?\", \"option1\": \"Dog Owners\", \"option2\": \"Mix of Both\"}, {\"question 2\": \"For the hero section's background, do you prefer a static image with a purple gradient or an animated background that subtly shifts hues?\", \"option1\": \"Static Image with Purple Gradient\", \"option2\": \"Animated Background That Subtly Shifts Hues\"}], \"input_token_count\": 779, \"output_token_count\": 110, \"time_taken\": \"0:00:03.315592\"}",
+        "message_id": "guest28072024152842",
+        "timestamp": "28072024152846",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement a carousel slider for showcasing the dog breeds icons\", \"checked\": true}, {\"feature\": \"Add an interactive quiz section on dog breeds to engage users\", \"checked\": false}, {\"feature\": \"Integrate a search filter for users to find information on specific dog breeds\", \"checked\": true}, {\"feature\": \"Use a grid layout to display all dog breeds icons in a structured manner\", \"checked\": true}, {\"feature\": \"Develop a 'Meet the Breeds' interactive section with detailed information on each breed when their icon is clicked\", \"checked\": false}, {\"feature\": \"Incorporate a favorites system where users can save and categorize breeds they are interested in\", \"checked\": false}], \"input_token_count\": 227, \"output_token_count\": 161, \"time_taken\": \"0:00:03.110764\"}",
         "message_id": "guest28072024152759",
