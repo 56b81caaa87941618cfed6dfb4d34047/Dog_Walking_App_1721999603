@@ -1,6 +1,15 @@
 [
     {
         "role": "user",
+        "content": "replace all the content in this hero, with breight fun placeholder content and bout various types of dogs",
+        "message_id": "guest28072024152616",
+        "timestamp": "28072024152617",
+        "component_file_name": "purple_background_cta_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
         "content": "add more colorful shades of purple rather than just one shade, and replace the \"dog profiel\" with an actual button to open up the \"my account\" section",
         "message_id": "guest28072024152516",
         "timestamp": "28072024152517",
