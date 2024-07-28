@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the SVG icons of different dog breeds to vary in size or maintain a uniform size across the hero section?\", \"option1\": \"Vary in size to create a dynamic layout\", \"option2\": \"Maintain uniform size for consistency\"}, {\"question 2\": \"Should these SVGs be interactive, such as changing appearance on hover or click, to engage the users or remain static?\", \"option1\": \"Yes, make them interactive\", \"option2\": \"No, keep them static\"}], \"input_token_count\": 273, \"output_token_count\": 117, \"time_taken\": \"0:00:02.320721\"}",
+        "message_id": "guest28072024152759",
+        "timestamp": "28072024152801",
+        "component_file_name": "purple_hero_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, I will use the provided SVG as an icon and style a new hero about dog breeds, using it 10 times.",
         "message_id": "guest28072024152759",
