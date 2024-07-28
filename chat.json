@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the new Vue.js header component, would you prefer a fixed or a dynamic layout that changes based on the user's screen size?\", \"option1\": \"Fixed layout\", \"option2\": \"Dynamic (responsive) layout\"}, {\"question 2\": \"Regarding the top navigation icons, would you like them to represent specific features or pages of the app? If so, could you please list these features/pages?\", \"option1\": \"Icons for specific features/pages with a list provided\", \"option2\": \"Generic icons without specific assignment\"}], \"input_token_count\": 274, \"output_token_count\": 123, \"time_taken\": \"0:00:03.309460\"}",
+        "message_id": "guest28072024153257",
+        "timestamp": "28072024153301",
+        "component_file_name": "purple_header_component_1721999604",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Working on replacing current code with a clean Vue.js header component with top nav icons.",
         "message_id": "guest28072024153257",
