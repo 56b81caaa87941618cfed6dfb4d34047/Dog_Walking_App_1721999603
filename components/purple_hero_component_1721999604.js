@@ -1,68 +1,10 @@
 Vue.component("purple_hero_component_1721999604", {
     template: `
-    <div class="bg-gradient-to-br from-purple-900 to-indigo-900 w-full h-full p-20 rounded-xl shadow-lg">
-        <div class="bg-gradient-to-r from-purple-800 to-indigo-800 p-8 rounded-lg shadow-lg">
-            <div class="bg-gradient-to-br from-purple-800 to-indigo-800 p-8 rounded-lg shadow-xl mb-8">
-                <div class="bg-gradient-to-r from-purple-700 via-indigo-700 to-purple-700 p-6 rounded-lg shadow-lg">
-                    <h2 class="text-5xl font-extrabold mb-4 text-center text-purple-100 tracking-wide"><i class='bx bxs-dog text-6xl mr-4 text-purple-300'></i>Dog Drop Off and Pickup Times</h2>
-                    <p class="text-2xl text-center text-purple-200 font-light">Schedule your furry friend's stay with us</p>
-                </div>
-            </div>
-            <form class="space-y-6">
-                <div class="grid grid-cols-2 gap-6">
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-purple-200 mb-2" for="dogName">
-                            <i class='bx bxs-dog text-2xl mr-2 text-purple-300'></i>Dog's Name
-                        </label>
-                        <input type="text" id="dogName" name="dogName" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white">
-                    </div>
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-purple-200 mb-2" for="ownerName">
-                            <i class='bx bxs-user text-2xl mr-2 text-purple-300'></i>Owner's Name
-                        </label>
-                        <input type="text" id="ownerName" name="ownerName" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white">
-                    </div>
-                </div>
-                <div class="grid grid-cols-2 gap-6">
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-purple-200 mb-2" for="dropOffDate">
-                            <i class='bx bx-calendar text-2xl mr-2 text-purple-300'></i>Drop Off Date
-                        </label>
-                        <input type="date" id="dropOffDate" name="dropOffDate" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white">
-                    </div>
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-purple-200 mb-2" for="dropOffTime">
-                            <i class='bx bx-time text-2xl mr-2 text-purple-300'></i>Drop Off Time
-                        </label>
-                        <input type="time" id="dropOffTime" name="dropOffTime" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white">
-                    </div>
-                </div>
-                <div class="grid grid-cols-2 gap-6">
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-purple-200 mb-2" for="pickupDate">
-                            <i class='bx bx-calendar text-2xl mr-2 text-purple-300'></i>Pickup Date
-                        </label>
-                        <input type="date" id="pickupDate" name="pickupDate" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white">
-                    </div>
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-purple-200 mb-2" for="pickupTime">
-                            <i class='bx bx-time text-2xl mr-2 text-purple-300'></i>Pickup Time
-                        </label>
-                        <input type="time" id="pickupTime" name="pickupTime" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white">
-                    </div>
-                </div>
-                <div>
-                    <label class="block text-sm font-medium text-purple-200 mb-2" for="specialInstructions">
-                        <i class='bx bx-message-detail text-2xl mr-2 text-purple-300'></i>Special Instructions
-                    </label>
-                    <textarea id="specialInstructions" name="specialInstructions" rows="3" class="w-full px-3 py-2 bg-purple-700 border border-indigo-500 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white"></textarea>
-                </div>
-                <div class="flex justify-center">
-                    <button type="submit" class="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-md shadow-md hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                        <i class='bx bx-calendar-check mr-2'></i>Schedule Drop Off/Pickup
-                    </button>
-                </div>
-            </form>
+    <div class="bg-gradient-to-br from-purple-900 to-indigo-900 w-full h-full p-20 rounded-xl shadow-lg flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-3/4 h-3/4 text-purple-300">
+            <path fill="currentColor" d="M256 224c-79.41 0-192 122.76-192 200.25 0 34.9 26.81 55.75 71.74 55.75 48.84 0 81.09-25.08 120.26-25.08 39.51 0 71.85 25.08 120.26 25.08 44.93 0 71.74-20.85 71.74-55.75C448 346.76 335.41 224 256 224zm-147.28-12.61c-10.4-34.65-42.44-57.09-71.56-50.13-29.12 6.96-44.29 40.69-33.89 75.34 10.4 34.65 42.44 57.09 71.56 50.13 29.12-6.96 44.29-40.69 33.89-75.34zm294.56 0c-10.4 34.65 4.77 68.38 33.89 75.34 29.12 6.96 61.16-15.48 71.56-50.13 10.4-34.65-4.77-68.38-33.89-75.34-29.12-6.96-61.16 15.48-71.56 50.13zM256 160c79.41 0 144-64.59 144-144S335.41 0 256 0 112 64.59 112 144s64.59 16 144 16z"/>
+        </svg>
+    </div>
         </div>
     </div>
     `,
