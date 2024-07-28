@@ -194,5 +194,9 @@
     {
         "level": 1,
         "task_description": "restyle this to be netflix-style tailwind css"
+    },
+    {
+        "level": 1,
+        "task_description": "delete all code and replace with a new vue.js component that is a nice clean header with a few different top nav icons"
     }
 ]
