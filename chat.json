@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll add a form to describe your dog and generate cute icons.",
+        "message_id": "guest28072024151927",
+        "timestamp": "28072024151928",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a big form to describe your dog and their diet. generate svg's of dog cartoons to style the form with cute icons",
         "message_id": "guest28072024151927",
